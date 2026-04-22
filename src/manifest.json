@@ -3,16 +3,14 @@
    "name":"Buttress",
    "version":"0.1",
    "description":"Replaces the text 'the cloud' with 'my butt'.",
-   {
-      "content_scripts":[
-         {
-            "js":[
-               "content_script.js"
-            ],
-            "matches":[
-               "<all_sites>"
-            ]
-         }
-      ]
-   }
+   "content_scripts":[
+      {
+         "js":[
+            "content_script.js"
+         ],
+         "matches":[
+            "<all_sites>"
+         ]
+      }
+   ]
 }
