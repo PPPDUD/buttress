@@ -8,7 +8,7 @@ function walk(node)
 	var child, next;
 	
 	var tagName = node.tagName ? node.tagName.toLowerCase() : "";
-	if (tagName == 'input' || tagName == 'textarea') {
+	if (tagName == 'input' || tagName == 'textarea' || tagName == 'script') {
 		return;
 	}
 	if (node.classList && node.classList.contains('ace_editor')) {
