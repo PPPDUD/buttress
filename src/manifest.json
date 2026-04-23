@@ -6,8 +6,7 @@
   "content_scripts": [
     {
       "js": ["content_script.js"],
-      "matches": ["<all_urls>"],
-      "world": "MAIN"
+      "matches": ["<all_urls>"]
     }
   ]
 }
